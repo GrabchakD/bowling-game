@@ -60,6 +60,8 @@ public class Main {
                     point += firstThrow + secondThrow;
                     if (firstThrow + secondThrow == DEFAULT_SKITTLE_COUNT) {
                         System.out.println("Spare");
+                    } else {
+                        System.out.println("Nice try, you have " + point + " point");
                     }
                 }
             } else {
